@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 200px;
+            height: 250px;
+        }
+
+
+        .sidebar {
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #2E73B4;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        .sidebar a {
+            display: block;
+            color: black;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        /* .sidebar a.active {
+        background-color: #04AA6D;
+        color: white;
+        } */
+
+        .sidebar a:hover {
+            background-color: #555;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="myphoto.jpg" alt="ProfileImg">
+        <h1 style="color: #B47C51; text-align: center; display: inline-block;">Welcome to My Site</h1>
+    </div>
+
+
+    <div class="sidebar">
+        <a class="active" href="index.html">Home</a>
+        <a href="cv.html">My CV</a>
+        <a href="#gallery">Photo Gallery</a>
+        <a href="#importantLink">Important Link</a>
+        <a href="contact.html">Contact Me</a>
+    </div>
+</body>
+
+</html>
